@@ -1,0 +1,1213 @@
+/* start new changings*/
+.mainContent.contactPage.accountPage .container .first {
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+}
+.mainContent.contactPage.accountPage {
+    margin-top: 0px;
+    background-image: url(../images/bg-main-user.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: inherit;
+}
+
+/*start percentage*/
+/****************************************************************
+ *
+ * CSS Percentage Circle
+ * Author: Andre Firchow
+ *
+*****************************************************************/
+.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+  position: absolute;
+  border: 0.14em solid #ff0000;
+  width: 0.72em;
+  height: 0.72em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  border-radius: 50%;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.pie-fill, .c100.p51 .bar:after, .c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after, .c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after, .c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after, .c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after, .c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after, .c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after, .c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after, .c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after, .c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after, .c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after, .c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after, .c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after, .c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after, .c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after, .c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after, .c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after, .c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after, .c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after, .c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after, .c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after, .c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after, .c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after, .c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after, .c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after, .c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c100 {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  float: none;
+  margin: 0 0.1em 0.1em 0;
+  background-color: #ccc;
+}
+.c100 *, .c100 *:before, .c100 *:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.c100.center {
+  float: none;
+  margin: 0 auto;
+}
+.c100.big {
+  font-size: 240px;
+}
+.c100.small {
+  font-size: 80px;
+}
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #ccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.c100:after {
+  position: absolute;
+  top: 0.14em;
+  left: 0.14em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  width: 0.72em;
+  height: 0.72em;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+.c100.p1 .bar {
+  -moz-transform: rotate(3.6deg);
+  -ms-transform: rotate(3.6deg);
+  -webkit-transform: rotate(3.6deg);
+  transform: rotate(3.6deg);
+}
+.c100.p2 .bar {
+  -moz-transform: rotate(7.2deg);
+  -ms-transform: rotate(7.2deg);
+  -webkit-transform: rotate(7.2deg);
+  transform: rotate(7.2deg);
+}
+.c100.p3 .bar {
+  -moz-transform: rotate(10.8deg);
+  -ms-transform: rotate(10.8deg);
+  -webkit-transform: rotate(10.8deg);
+  transform: rotate(10.8deg);
+}
+.c100.p4 .bar {
+  -moz-transform: rotate(14.4deg);
+  -ms-transform: rotate(14.4deg);
+  -webkit-transform: rotate(14.4deg);
+  transform: rotate(14.4deg);
+}
+.c100.p5 .bar {
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+.c100.p6 .bar {
+  -moz-transform: rotate(21.6deg);
+  -ms-transform: rotate(21.6deg);
+  -webkit-transform: rotate(21.6deg);
+  transform: rotate(21.6deg);
+}
+.c100.p7 .bar {
+  -moz-transform: rotate(25.2deg);
+  -ms-transform: rotate(25.2deg);
+  -webkit-transform: rotate(25.2deg);
+  transform: rotate(25.2deg);
+}
+.c100.p8 .bar {
+  -moz-transform: rotate(28.8deg);
+  -ms-transform: rotate(28.8deg);
+  -webkit-transform: rotate(28.8deg);
+  transform: rotate(28.8deg);
+}
+.c100.p9 .bar {
+  -moz-transform: rotate(32.4deg);
+  -ms-transform: rotate(32.4deg);
+  -webkit-transform: rotate(32.4deg);
+  transform: rotate(32.4deg);
+}
+.c100.p10 .bar {
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+.c100.p11 .bar {
+  -moz-transform: rotate(39.6deg);
+  -ms-transform: rotate(39.6deg);
+  -webkit-transform: rotate(39.6deg);
+  transform: rotate(39.6deg);
+}
+.c100.p12 .bar {
+  -moz-transform: rotate(43.2deg);
+  -ms-transform: rotate(43.2deg);
+  -webkit-transform: rotate(43.2deg);
+  transform: rotate(43.2deg);
+}
+.c100.p13 .bar {
+  -moz-transform: rotate(46.8deg);
+  -ms-transform: rotate(46.8deg);
+  -webkit-transform: rotate(46.8deg);
+  transform: rotate(46.8deg);
+}
+.c100.p14 .bar {
+  -moz-transform: rotate(50.4deg);
+  -ms-transform: rotate(50.4deg);
+  -webkit-transform: rotate(50.4deg);
+  transform: rotate(50.4deg);
+}
+.c100.p15 .bar {
+  -moz-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+.c100.p16 .bar {
+  -moz-transform: rotate(57.6deg);
+  -ms-transform: rotate(57.6deg);
+  -webkit-transform: rotate(57.6deg);
+  transform: rotate(57.6deg);
+}
+.c100.p17 .bar {
+  -moz-transform: rotate(61.2deg);
+  -ms-transform: rotate(61.2deg);
+  -webkit-transform: rotate(61.2deg);
+  transform: rotate(61.2deg);
+}
+.c100.p18 .bar {
+  -moz-transform: rotate(64.8deg);
+  -ms-transform: rotate(64.8deg);
+  -webkit-transform: rotate(64.8deg);
+  transform: rotate(64.8deg);
+}
+.c100.p19 .bar {
+  -moz-transform: rotate(68.4deg);
+  -ms-transform: rotate(68.4deg);
+  -webkit-transform: rotate(68.4deg);
+  transform: rotate(68.4deg);
+}
+.c100.p20 .bar {
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+.c100.p21 .bar {
+  -moz-transform: rotate(75.6deg);
+  -ms-transform: rotate(75.6deg);
+  -webkit-transform: rotate(75.6deg);
+  transform: rotate(75.6deg);
+}
+.c100.p22 .bar {
+  -moz-transform: rotate(79.2deg);
+  -ms-transform: rotate(79.2deg);
+  -webkit-transform: rotate(79.2deg);
+  transform: rotate(79.2deg);
+}
+.c100.p23 .bar {
+  -moz-transform: rotate(82.8deg);
+  -ms-transform: rotate(82.8deg);
+  -webkit-transform: rotate(82.8deg);
+  transform: rotate(82.8deg);
+}
+.c100.p24 .bar {
+  -moz-transform: rotate(86.4deg);
+  -ms-transform: rotate(86.4deg);
+  -webkit-transform: rotate(86.4deg);
+  transform: rotate(86.4deg);
+}
+.c100.p25 .bar {
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.c100.p26 .bar {
+  -moz-transform: rotate(93.6deg);
+  -ms-transform: rotate(93.6deg);
+  -webkit-transform: rotate(93.6deg);
+  transform: rotate(93.6deg);
+}
+.c100.p27 .bar {
+  -moz-transform: rotate(97.2deg);
+  -ms-transform: rotate(97.2deg);
+  -webkit-transform: rotate(97.2deg);
+  transform: rotate(97.2deg);
+}
+.c100.p28 .bar {
+  -moz-transform: rotate(100.8deg);
+  -ms-transform: rotate(100.8deg);
+  -webkit-transform: rotate(100.8deg);
+  transform: rotate(100.8deg);
+}
+.c100.p29 .bar {
+  -moz-transform: rotate(104.4deg);
+  -ms-transform: rotate(104.4deg);
+  -webkit-transform: rotate(104.4deg);
+  transform: rotate(104.4deg);
+}
+.c100.p30 .bar {
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -webkit-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+.c100.p31 .bar {
+  -moz-transform: rotate(111.6deg);
+  -ms-transform: rotate(111.6deg);
+  -webkit-transform: rotate(111.6deg);
+  transform: rotate(111.6deg);
+}
+.c100.p32 .bar {
+  -moz-transform: rotate(115.2deg);
+  -ms-transform: rotate(115.2deg);
+  -webkit-transform: rotate(115.2deg);
+  transform: rotate(115.2deg);
+}
+.c100.p33 .bar {
+  -moz-transform: rotate(118.8deg);
+  -ms-transform: rotate(118.8deg);
+  -webkit-transform: rotate(118.8deg);
+  transform: rotate(118.8deg);
+}
+.c100.p34 .bar {
+  -moz-transform: rotate(122.4deg);
+  -ms-transform: rotate(122.4deg);
+  -webkit-transform: rotate(122.4deg);
+  transform: rotate(122.4deg);
+}
+.c100.p35 .bar {
+  -moz-transform: rotate(126deg);
+  -ms-transform: rotate(126deg);
+  -webkit-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+.c100.p36 .bar {
+  -moz-transform: rotate(129.6deg);
+  -ms-transform: rotate(129.6deg);
+  -webkit-transform: rotate(129.6deg);
+  transform: rotate(129.6deg);
+}
+.c100.p37 .bar {
+  -moz-transform: rotate(133.2deg);
+  -ms-transform: rotate(133.2deg);
+  -webkit-transform: rotate(133.2deg);
+  transform: rotate(133.2deg);
+}
+.c100.p38 .bar {
+  -moz-transform: rotate(136.8deg);
+  -ms-transform: rotate(136.8deg);
+  -webkit-transform: rotate(136.8deg);
+  transform: rotate(136.8deg);
+}
+.c100.p39 .bar {
+  -moz-transform: rotate(140.4deg);
+  -ms-transform: rotate(140.4deg);
+  -webkit-transform: rotate(140.4deg);
+  transform: rotate(140.4deg);
+}
+.c100.p40 .bar {
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+.c100.p41 .bar {
+  -moz-transform: rotate(147.6deg);
+  -ms-transform: rotate(147.6deg);
+  -webkit-transform: rotate(147.6deg);
+  transform: rotate(147.6deg);
+}
+.c100.p42 .bar {
+  -moz-transform: rotate(151.2deg);
+  -ms-transform: rotate(151.2deg);
+  -webkit-transform: rotate(151.2deg);
+  transform: rotate(151.2deg);
+}
+.c100.p43 .bar {
+  -moz-transform: rotate(154.8deg);
+  -ms-transform: rotate(154.8deg);
+  -webkit-transform: rotate(154.8deg);
+  transform: rotate(154.8deg);
+}
+.c100.p44 .bar {
+  -moz-transform: rotate(158.4deg);
+  -ms-transform: rotate(158.4deg);
+  -webkit-transform: rotate(158.4deg);
+  transform: rotate(158.4deg);
+}
+.c100.p45 .bar {
+  -moz-transform: rotate(162deg);
+  -ms-transform: rotate(162deg);
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+.c100.p46 .bar {
+  -moz-transform: rotate(165.6deg);
+  -ms-transform: rotate(165.6deg);
+  -webkit-transform: rotate(165.6deg);
+  transform: rotate(165.6deg);
+}
+.c100.p47 .bar {
+  -moz-transform: rotate(169.2deg);
+  -ms-transform: rotate(169.2deg);
+  -webkit-transform: rotate(169.2deg);
+  transform: rotate(169.2deg);
+}
+.c100.p48 .bar {
+  -moz-transform: rotate(172.8deg);
+  -ms-transform: rotate(172.8deg);
+  -webkit-transform: rotate(172.8deg);
+  transform: rotate(172.8deg);
+}
+.c100.p49 .bar {
+  -moz-transform: rotate(176.4deg);
+  -ms-transform: rotate(176.4deg);
+  -webkit-transform: rotate(176.4deg);
+  transform: rotate(176.4deg);
+}
+.c100.p50 .bar {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.c100.p51 .bar {
+  -moz-transform: rotate(183.6deg);
+  -ms-transform: rotate(183.6deg);
+  -webkit-transform: rotate(183.6deg);
+  transform: rotate(183.6deg);
+}
+.c100.p52 .bar {
+  -moz-transform: rotate(187.2deg);
+  -ms-transform: rotate(187.2deg);
+  -webkit-transform: rotate(187.2deg);
+  transform: rotate(187.2deg);
+}
+.c100.p53 .bar {
+  -moz-transform: rotate(190.8deg);
+  -ms-transform: rotate(190.8deg);
+  -webkit-transform: rotate(190.8deg);
+  transform: rotate(190.8deg);
+}
+.c100.p54 .bar {
+  -moz-transform: rotate(194.4deg);
+  -ms-transform: rotate(194.4deg);
+  -webkit-transform: rotate(194.4deg);
+  transform: rotate(194.4deg);
+}
+.c100.p55 .bar {
+  -moz-transform: rotate(198deg);
+  -ms-transform: rotate(198deg);
+  -webkit-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+.c100.p56 .bar {
+  -moz-transform: rotate(201.6deg);
+  -ms-transform: rotate(201.6deg);
+  -webkit-transform: rotate(201.6deg);
+  transform: rotate(201.6deg);
+}
+.c100.p57 .bar {
+  -moz-transform: rotate(205.2deg);
+  -ms-transform: rotate(205.2deg);
+  -webkit-transform: rotate(205.2deg);
+  transform: rotate(205.2deg);
+}
+.c100.p58 .bar {
+  -moz-transform: rotate(208.8deg);
+  -ms-transform: rotate(208.8deg);
+  -webkit-transform: rotate(208.8deg);
+  transform: rotate(208.8deg);
+}
+.c100.p59 .bar {
+  -moz-transform: rotate(212.4deg);
+  -ms-transform: rotate(212.4deg);
+  -webkit-transform: rotate(212.4deg);
+  transform: rotate(212.4deg);
+}
+.c100.p60 .bar {
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -webkit-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+.c100.p61 .bar {
+  -moz-transform: rotate(219.6deg);
+  -ms-transform: rotate(219.6deg);
+  -webkit-transform: rotate(219.6deg);
+  transform: rotate(219.6deg);
+}
+.c100.p62 .bar {
+  -moz-transform: rotate(223.2deg);
+  -ms-transform: rotate(223.2deg);
+  -webkit-transform: rotate(223.2deg);
+  transform: rotate(223.2deg);
+}
+.c100.p63 .bar {
+  -moz-transform: rotate(226.8deg);
+  -ms-transform: rotate(226.8deg);
+  -webkit-transform: rotate(226.8deg);
+  transform: rotate(226.8deg);
+}
+.c100.p64 .bar {
+  -moz-transform: rotate(230.4deg);
+  -ms-transform: rotate(230.4deg);
+  -webkit-transform: rotate(230.4deg);
+  transform: rotate(230.4deg);
+}
+.c100.p65 .bar {
+  -moz-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  -webkit-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+.c100.p66 .bar {
+  -moz-transform: rotate(237.6deg);
+  -ms-transform: rotate(237.6deg);
+  -webkit-transform: rotate(237.6deg);
+  transform: rotate(237.6deg);
+}
+.c100.p67 .bar {
+  -moz-transform: rotate(241.2deg);
+  -ms-transform: rotate(241.2deg);
+  -webkit-transform: rotate(241.2deg);
+  transform: rotate(241.2deg);
+}
+.c100.p68 .bar {
+  -moz-transform: rotate(244.8deg);
+  -ms-transform: rotate(244.8deg);
+  -webkit-transform: rotate(244.8deg);
+  transform: rotate(244.8deg);
+}
+.c100.p69 .bar {
+  -moz-transform: rotate(248.4deg);
+  -ms-transform: rotate(248.4deg);
+  -webkit-transform: rotate(248.4deg);
+  transform: rotate(248.4deg);
+}
+.c100.p70 .bar {
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -webkit-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+.c100.p71 .bar {
+  -moz-transform: rotate(255.6deg);
+  -ms-transform: rotate(255.6deg);
+  -webkit-transform: rotate(255.6deg);
+  transform: rotate(255.6deg);
+}
+.c100.p72 .bar {
+  -moz-transform: rotate(259.2deg);
+  -ms-transform: rotate(259.2deg);
+  -webkit-transform: rotate(259.2deg);
+  transform: rotate(259.2deg);
+}
+.c100.p73 .bar {
+  -moz-transform: rotate(262.8deg);
+  -ms-transform: rotate(262.8deg);
+  -webkit-transform: rotate(262.8deg);
+  transform: rotate(262.8deg);
+}
+.c100.p74 .bar {
+  -moz-transform: rotate(266.4deg);
+  -ms-transform: rotate(266.4deg);
+  -webkit-transform: rotate(266.4deg);
+  transform: rotate(266.4deg);
+}
+.c100.p75 .bar {
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.c100.p76 .bar {
+  -moz-transform: rotate(273.6deg);
+  -ms-transform: rotate(273.6deg);
+  -webkit-transform: rotate(273.6deg);
+  transform: rotate(273.6deg);
+}
+.c100.p77 .bar {
+  -moz-transform: rotate(277.2deg);
+  -ms-transform: rotate(277.2deg);
+  -webkit-transform: rotate(277.2deg);
+  transform: rotate(277.2deg);
+}
+.c100.p78 .bar {
+  -moz-transform: rotate(280.8deg);
+  -ms-transform: rotate(280.8deg);
+  -webkit-transform: rotate(280.8deg);
+  transform: rotate(280.8deg);
+}
+.c100.p79 .bar {
+  -moz-transform: rotate(284.4deg);
+  -ms-transform: rotate(284.4deg);
+  -webkit-transform: rotate(284.4deg);
+  transform: rotate(284.4deg);
+}
+.c100.p80 .bar {
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -webkit-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+.c100.p81 .bar {
+  -moz-transform: rotate(291.6deg);
+  -ms-transform: rotate(291.6deg);
+  -webkit-transform: rotate(291.6deg);
+  transform: rotate(291.6deg);
+}
+.c100.p82 .bar {
+  -moz-transform: rotate(295.2deg);
+  -ms-transform: rotate(295.2deg);
+  -webkit-transform: rotate(295.2deg);
+  transform: rotate(295.2deg);
+}
+.c100.p83 .bar {
+  -moz-transform: rotate(298.8deg);
+  -ms-transform: rotate(298.8deg);
+  -webkit-transform: rotate(298.8deg);
+  transform: rotate(298.8deg);
+}
+.c100.p84 .bar {
+  -moz-transform: rotate(302.4deg);
+  -ms-transform: rotate(302.4deg);
+  -webkit-transform: rotate(302.4deg);
+  transform: rotate(302.4deg);
+}
+.c100.p85 .bar {
+  -moz-transform: rotate(306deg);
+  -ms-transform: rotate(306deg);
+  -webkit-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+.c100.p86 .bar {
+  -moz-transform: rotate(309.6deg);
+  -ms-transform: rotate(309.6deg);
+  -webkit-transform: rotate(309.6deg);
+  transform: rotate(309.6deg);
+}
+.c100.p87 .bar {
+  -moz-transform: rotate(313.2deg);
+  -ms-transform: rotate(313.2deg);
+  -webkit-transform: rotate(313.2deg);
+  transform: rotate(313.2deg);
+}
+.c100.p88 .bar {
+  -moz-transform: rotate(316.8deg);
+  -ms-transform: rotate(316.8deg);
+  -webkit-transform: rotate(316.8deg);
+  transform: rotate(316.8deg);
+}
+.c100.p89 .bar {
+  -moz-transform: rotate(320.4deg);
+  -ms-transform: rotate(320.4deg);
+  -webkit-transform: rotate(320.4deg);
+  transform: rotate(320.4deg);
+}
+.c100.p90 .bar {
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -webkit-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+.c100.p91 .bar {
+  -moz-transform: rotate(327.6deg);
+  -ms-transform: rotate(327.6deg);
+  -webkit-transform: rotate(327.6deg);
+  transform: rotate(327.6deg);
+}
+.c100.p92 .bar {
+  -moz-transform: rotate(331.2deg);
+  -ms-transform: rotate(331.2deg);
+  -webkit-transform: rotate(331.2deg);
+  transform: rotate(331.2deg);
+}
+.c100.p93 .bar {
+  -moz-transform: rotate(334.8deg);
+  -ms-transform: rotate(334.8deg);
+  -webkit-transform: rotate(334.8deg);
+  transform: rotate(334.8deg);
+}
+.c100.p94 .bar {
+  -moz-transform: rotate(338.4deg);
+  -ms-transform: rotate(338.4deg);
+  -webkit-transform: rotate(338.4deg);
+  transform: rotate(338.4deg);
+}
+.c100.p95 .bar {
+  -moz-transform: rotate(342deg);
+  -ms-transform: rotate(342deg);
+  -webkit-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+.c100.p96 .bar {
+  -moz-transform: rotate(345.6deg);
+  -ms-transform: rotate(345.6deg);
+  -webkit-transform: rotate(345.6deg);
+  transform: rotate(345.6deg);
+}
+.c100.p97 .bar {
+  -moz-transform: rotate(349.2deg);
+  -ms-transform: rotate(349.2deg);
+  -webkit-transform: rotate(349.2deg);
+  transform: rotate(349.2deg);
+}
+.c100.p98 .bar {
+  -moz-transform: rotate(352.8deg);
+  -ms-transform: rotate(352.8deg);
+  -webkit-transform: rotate(352.8deg);
+  transform: rotate(352.8deg);
+}
+.c100.p99 .bar {
+  -moz-transform: rotate(356.4deg);
+  -ms-transform: rotate(356.4deg);
+  -webkit-transform: rotate(356.4deg);
+  transform: rotate(356.4deg);
+}
+.c100.p100 .bar {
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.c100:hover {
+  cursor: default;
+}
+/*.c100:hover > span {
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+  color: #ff0000;
+}*/
+.c100:hover:after {
+  top: 0.04em;
+  left: 0.04em;
+  width: 0.92em;
+  height: 0.92em;
+}
+.c100 img {
+    border-radius: 50% !important;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -9px;
+}
+/* end percentage*/
+.col-sm-9.col-md-9.rightSide .edits {
+    float: right;
+    width: auto;
+    border: 0px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 53px;
+    background: #f00;
+    border-radius: 0px;
+    position: relative;
+    top: -10px;
+}
+
+fieldset {
+    border: 1px solid #d3d3d3;
+    padding: 0px 5px 10px 10px;
+    margin: 0 0 1.5em 0;
+    border-radius: 3px;
+    box-shadow: 0px 1px #d3d3d3;
+}
+legend {
+    font-size: 15px;
+    font-family: 'Arimo',sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+    color: #4F504D;
+    text-align: left;
+    display: block;
+    width: inherit;
+    padding: 0 10px;
+    border-bottom: none;
+}
+fieldset a, fieldset span {
+    text-decoration: none !important;
+    color: #4F504D;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Arim0',sans-serif;
+	opacity: 70%;
+	word-break: break-all;
+}
+.contactDetailOnly .col-md-3, .contactDetailOnly .col-md-12 {
+    padding: 0 5px !important;
+}
+.document_imgs .imgs {
+    margin: 0 !important;
+}
+.accountPage .leftSide .topdetaail p {
+    margin: 0 auto !important;
+    display: table !important;
+    color: #4F504D !important;
+    font-family: 'Arimo',sans-serif !important;
+    font-size: 15px;
+}
+.accountPage .leftSide .topdetaail h4 {
+    font-family: 'Arimo', sans-serif !important;
+    color: #4F504D !important;
+    font-weight: 700 !important;
+    line-height: 23px !important; 
+    font-size: 20px !important;
+    margin: 0 auto !important;
+    display: table !important;
+}
+.accountPage .rightSide {
+    padding: 10px 50px 0px !important;
+}
+.accountPage .rightSide h2 {
+    font-size: 20px !important;
+    margin-bottom: 23px !important;
+    font-weight: 700 !important;
+    font-family: 'Arimo',sans-serif !important;
+    color: #4F504D !important;
+    line-height: 23px !important;
+}
+.accountPage .rightSide h3 {
+    font-size: 45px !important;
+    line-height: 52px !important;
+    font-weight: 700 !important;
+    font-family: 'Arimo',sans-serif !important;
+    color: #4F504D !important;
+    margin-top: 10px !important;
+}
+.document_imgs .imgs span {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700 !important;
+    line-height: 17px !important;
+}
+.accountPage .leftSide ul li a.active, .accountPage .leftSide ul li a:hover {
+    background: #f00 !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    border-color: #fff !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    font-family: 'Arimo',sans-serif !important;
+}
+.accountPage .leftSide ul li a{
+	font-size: 15px !important;
+    line-height: 17px !important;
+    font-family: 'Arimo',sans-serif !important;
+}
+.topdetaail {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.bookingTab ul.ui-tabs-nav li.ui-state-active a,.bookingTab ul.ui-tabs-nav li a:hover {
+    color: #fff !important;
+    background-color: #ff0000 !important;
+}
+.bookingTab ul.ui-tabs-nav li a {
+    color: #4f504d !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    font-family: 'Arimo',sans-serif !important;
+    background-color: #fff !important;
+    font-weight: 400 !important;
+	width:100% !important;
+}
+.bookingTab ul.ui-tabs-nav li {
+    border: 1px solid #d3d3d3 !important;
+}
+.bookingTab ul.ui-tabs-nav {
+    background: none !important;
+}
+.ui-widget-content {
+    border: none !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0px !important;
+	margin-top:0 !important;
+}
+.ui-tabs .ui-tabs-nav li {
+    margin: 0px .2em 0 0 !important;
+}
+.search-container input {
+    padding: 5px 5px !important;
+    width: 50% !important;
+    border: 1px solid #d3d3d3 !important;
+    line-height: 17px !important;
+    font-size: 15px !important;
+    color: #4F504D !important;
+    min-height: 34px !important;
+}
+.topdetaail {
+    border: none !important;
+}
+.bookings table.table.table-striped tr td span {
+    padding: unset !important;
+    background: unset !important;
+    color: #ff0000 !important;
+    border-radius: unset !important;
+    display: unset !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent !important;
+}
+td.imgtd {
+    display: inline-flex !important;
+}
+td.imgtd img {
+    padding: 0 5px !important;
+}
+.table td, .table th {
+    padding: 5px !important;
+}
+.ttxt, .ttxt.img-num {
+    padding: 25px 0 !important;
+}
+.bookings table.table.table-striped tr td{
+	color: #4F504D !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    font-weight: 400 !important;
+    font-family: 'Arimo',sans-serif !important;
+}
+span.img-num {
+    color: #ff0000 !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    font-weight: 400 !important;
+    font-family: 'Arimo',sans-serif !important;
+}
+.table td {
+    border-top: none !important;
+}
+.table td, .table th {
+    vertical-align: middle !important;
+}
+td.imgtd div {
+    padding: 30px 0 !important;
+}
+.table tr {
+    border-top: 1px solid #dee2e6 !important;
+}
+@media(max-width:1199px){
+	.c100.big {
+    font-size: 150px !important;
+}
+.c100 img {
+    top: -6px !important;
+    width: 130px !important;
+    height: 130px !important;
+}
+.topdetaail {
+    padding: 0 !important;
+}
+.search-container input {
+    width: 80% !important;
+}
+.accountPage .leftSide .topdetaail h4 {
+    font-size: 16px !important;
+}
+}
+@media(max-width:767px){
+	.ui-tabs .ui-tabs-nav li {
+    margin: 5px auto !important;
+    display: table !important;
+    width: 100% !important;
+}
+}
+.contactPage .field label {
+    font-family: 'Arimo', sans-serif !important;
+    color: #4F504D !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+}
+.contactPage .field input,.contactPage .field select {
+    background: transparent !important;
+    border: 1px solid #d3d3d3 !important;
+    box-shadow: 1px 1px #d3d3d3 !important;
+	min-height:48px !important;
+}
+.contactPage .field textarea{
+    background: transparent !important;
+    border: 1px solid #d3d3d3 !important;
+    box-shadow: 1px 1px #d3d3d3 !important;
+}
+.contactPage .contactForm button {
+    font-size: 22px !important;
+    line-height: 33px !important;
+    font-weight: 700 !important;
+    margin: 10px auto !important;
+    display: table !important;
+    float: none !important;
+    font-family: 'Arimo',sans-serif;
+}
+.col-md-12.packages {
+    display: contents !important;
+    margin-top: 40px !important;
+}
+.carItem ul li,.membership ul li {
+    list-style: none !important;
+    text-align: center !important;
+    font-family: 'Poppins';
+    font-size: 13px !important;
+    color: #9A9A9A !important;
+    font-weight: 400;
+    line-height: 35px !important;
+}
+.carItem, .membership {
+    border: 1px solid #f1f1f1 !important;
+    padding: 15px !important;
+    box-shadow: 1px 1px #d3d3d3;
+    background-color: #fff !important;
+    margin-bottom: 20px !important;
+
+}
+.package-image img, .package-txt, .package-priced {
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+.carItem ul, .membership ul {
+    padding: 0px !important;
+}
+.package-txt h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px !important;
+    font-family: 'Arimo',sans-serif;
+    color: #4F504D !important;
+}
+.package-txt p {
+    line-height: 35px !important;
+    font-size: 15px !important;
+    color: #9A9A9A !important;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+span.crnecy {
+    font-size: 18px !important;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #9A9A9A !important;
+    line-height: 27px !important;
+}
+span.nmprice {
+    font-size: 52px !important;
+    font-weight: 700;
+    line-height: 78px !important;
+    color: #4F504D !important;
+    font-family: 'Poppins';
+
+}
+span.per-price {
+    font-size: 14px !important;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #9A9A9A !important;
+    line-height: 21px !important;
+}
+a.price-button {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    padding: 5px 10px !important;
+    width: 80% !important;
+    display: table;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Arimo',sans-serif;
+    font-size: 15px !important;
+    line-height: 23px !important;
+}
+.diamondclass .membership {
+    padding: 40px 20px !important;
+    margin-top: -20px !important;
+}
+.heading-custom-packages h2 {
+    font-size: 30px !important;
+    font-weight: 700;
+    font-family: 'Arimo',sans-serif;
+    line-height: 34px !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4F504D !important;
+	margin-bottom: 40px !important;
+}
+.heading-custom-packages p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Arimo',sans-serif;
+    line-height: 17px !important;
+    color: #222222 !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading-custom-packages h2::after {
+    content: '';
+    background-image: url('../images/border.png');
+    width: 65px !important;
+    height: 2px !important;
+    display: table;
+    margin: 5px auto;
+    padding-top: 0;
+}
+.bookings {
+    width: 100% !important;
+}	
+.col-md-8.heading-custom-packages {
+    margin-top: 30px !important;
+}
+
+
+.vedioWrap h2 {
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-size: 68px !important;
+    font-weight: 900 !important;
+    line-height: 79px !important;
+	padding-top:100px !important;
+}
+.vedioWrap {
+    background: url(../images/videobg.png) center bottom no-repeat;
+    height: 700px !important;
+    line-height: 150px !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+p.wtred {
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    border-radius: 5px !important;
+}
+p.flgrey {
+    background-color: #4F504D !important;
+    border-color: #4F504D !important;
+    color: #fff !important;
+	border-radius: 5px !important;
+}
+p.txtgrey {	
+    background-color: #fff !important;
+    border-color: #4F504D !important;
+    color: #4F504D !important;
+	border-radius: 5px !important;
+}
+p.fldgrey {
+    border-color: #343434 !important;
+    color: #fff !important;
+	background-color:#343434 !important;
+	border-radius: 5px !important;
+}
+a.cmingsoon {
+    background-color: #DEDEDB !important;
+    width: 100%;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #ff0000;
+    font-size: 22px;
+    display: block;
+    padding: 4px 10px;
+    border-radius: 5px !important;
+}
+.carItem {
+    background-color: #ffff !important;
+}
+.bggreyclr {
+    background-color: #F1F1F1 !important;
+    margin-top: 20px !important;
+    padding-bottom: 40px !important;
+}
+.form-group .fa {
+    position: relative;
+    top: -33px;
+    left: -20px;
+    float: right;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+.carItem figure {
+    height: auto !important;
+}
+.carItem .offerdt h5 {
+    color: #4F504D !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+}
+.carItem .offerdt h5 {
+    min-height: 55px !important;
+}
+
+.heading h2 {
+    color: #4F504D !important;
+    font-size: 30px !important;
+}
+.vedioWrap.megaoffer {
+    background: url(../images/bgmegaofervideo.png) center bottom no-repeat;
+    height: 559px!important;
+    line-height: 480px !important;
+    text-align: center !important;
+    position: relative !important;
+}
+/*end new changings*/

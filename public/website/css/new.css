@@ -1,0 +1,284 @@
+
+
+.heading.profileHeading {
+    padding-top: 0px;
+}
+
+.mainContent.contactPage.accountPage {
+    margin-top: 0px;
+}
+
+.accountPage .leftSide {
+    border-right: 1px  solid #e0e0e0;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+.accountPage .leftSide ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.accountPage .leftSide ul li a {
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D  !important;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px  solid #e0e0e0;
+    display: block;
+    padding: 10px 20px;
+}
+
+.accountPage .leftSide .topdetaail h4 {
+    font-family: 'Arimo', sans-serif;
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.topdetaail {
+    border-bottom: 1px  solid #e0e0e0;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px;
+}
+
+.accountPage .leftSide ul li a.active, .accountPage .leftSide ul li a:hover {
+    background: #f00;
+    color: #fff !important;
+    font-weight: bold;
+    border-color: #fff;
+}
+
+.accountPage .rightSide {
+    padding:10px 50px 100px; 
+}
+
+.contactPage .field label {
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.accountPage .rightSide h2 {
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+ul {}a.accountPage .rightSide .membership {
+    text-align: center;
+}
+
+.accountPage .rightSide .membership ul {
+    padding: 0px;
+    list-style: none;
+    border: 1px solid #e0e0e0;
+}
+
+.accountPage .rightSide .membership ul li {
+    line-height: normal;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #4F504D;
+    line-height: 22px;
+}
+
+.accountPage .rightSide .membership ul li {border-bottom: 1px solid #e0e0e0;padding: 10px 10px;}
+
+.topdetaail {
+}
+
+.accountPage .rightSide .membership ul li.heads {
+    background: #f00;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accountPage .rightSide .membership ul li.grey {
+    background: #e0e0e0;
+    color: #4F504D;
+}
+
+.accountPage .rightSide .membership ul li a.button {
+    background: #ff0000;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 18px;
+    display: inline-block;
+}
+.accountPage .rightSide .membership ul li.heads {
+    padding: 25px 0px;
+    line-height: normal;
+}
+.bookings table.table.table-striped tr th {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+.bookings table.table.table-striped tr td {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+.bookings table.table.table-striped tr td span {
+    padding: 2px 10px;
+    background: #afafaf;
+    color: #fff;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.bookings table.table.table-striped tr td a {
+    background: #ff0000;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 2px 18px;
+    display: inline-block;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 670px)
+{
+    .accountPage .leftSide {
+        padding: 20px;
+    }
+
+    .accountPage .rightSide {
+        padding: 20px;
+    }
+
+    .mainContent.contactPage.accountPage .fieldset {
+        display: block;
+    }
+
+    .mainContent.contactPage.accountPage table.table.table-striped {
+        display: block;
+        overflow: auto;
+    }
+
+    .mainContent.contactPage.accountPage table.table.table-striped tr th {
+        min-width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! =======================================================
+                      New Style              
+========================================================= */
+
+
+.bookingTab ul.ui-tabs-nav {
+    background: #f00;
+    border: 0px;
+}
+
+.bookingTab ul.ui-tabs-nav li {
+    border: 0px;
+    background: none;
+}
+
+.bookingTab ul.ui-tabs-nav li.ui-state-active {
+    background: #fff;
+}
+
+.bookingTab ul.ui-tabs-nav li a {
+    color: #fff;
+}
+
+.bookingTab ul.ui-tabs-nav li.ui-state-active a {
+    color: #f00;
+}
+
+.contactDetailOnly ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.contactDetailOnly ul li {
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.contactDetailOnly ul li strong {
+    float: right;
+}
+.document_imgs {display: flex;}
+
+.document_imgs .imgs {
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.document_imgs .imgs span {
+    display: block;
+    margin-bottom: 7px;
+    font-family: 'Arimo', sans-serif;
+    color: #4F504D;
+    font-size: 14px;
+    text-align: center;
+}
+
+.document_imgs .imgs 
+ img {
+    width: 100%;
+}
+
+.document_imgs {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contactDetailOnly a.edits {
+    width: auto;
+    border: 0px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 53px;
+    background: #f00;
+    border-radius: 0px;
+}
+
+.contactDetailOnly {
+    margin-bottom: 30px;
+}
+
+.contactDetailsShow .contactForm {
+    display: none;
+}
+.modal-body iframe {
+    width: 100%;
+    height: 600px;
+}

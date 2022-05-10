@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Document extends Model
+{
+    use HasFactory;
+
+    public function document_type(){
+        return $this->belongsTo('App\Models\Admin\Settings\DocumentType', 'document_type_id');
+    }
+
+
+}
